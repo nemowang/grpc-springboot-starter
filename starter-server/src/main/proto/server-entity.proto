@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.nemo.grpcstarterserver";
+option java_outer_classname = "ServerEntityProto";
+
+package server;
+
+message StringRequest {
+    string value = 1;
+}
+
+message StringResponse {
+    string value = 1;
+}

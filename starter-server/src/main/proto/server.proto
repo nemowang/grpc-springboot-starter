@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.nemo.grpcstarterserver";
+option java_outer_classname = "ServerProto";
+
+import "server-entity.proto";
+
+package server;
+
+service HelloService {
+    // 普通方式传输
+    rpc sayHelloWorld(StringRequest) returns (StringResponse);
+}
