@@ -41,7 +41,7 @@
         <fastjson.version>1.2.62</fastjson.version>
 
         <grpc-starter.verson>3.4.1</grpc-starter.verson>
-        <srping-boot-autoconfigure-version>2.2.1.RELEASE</srping-boot-autoconfigure-version>
+        <srping-boot-autoconfigure-version>2.5.15</srping-boot-autoconfigure-version>
         <grpc-spring-boot-starter>2.4.0.RELEASE</grpc-spring-boot-starter>
     </properties>
 
