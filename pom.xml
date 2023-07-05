@@ -24,7 +24,7 @@
     <properties>
         <!--grpc相关-->
         <protoc.version>3.10.0</protoc.version>
-        <grpc.version>1.25.0</grpc.version>
+        <grpc.version>1.53.0</grpc.version>
         <protobuf-java-format.version>1.4</protobuf-java-format.version>
         <os-maven-plugin.version>1.6.2</os-maven-plugin.version>
         <protobuf-maven-plugin.version>0.6.1</protobuf-maven-plugin.version>
